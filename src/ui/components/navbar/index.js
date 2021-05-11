@@ -1,14 +1,22 @@
+export const Nav = ({ children }) => {
+  return (
+    <nav className="p-4">
+      <ul className="flex space-x-2">{children}</ul>
+    </nav>
+  );
+};
 
-export const Navbar=()=> {
-    return (
-      <div className="navbar">
-          <h1>Farkhan Azmi</h1>
-          <div className="links">
-              <a href="/">Home</a>
-              <a href="/create">Blog</a>
-          </div>
-      </div>
-    );
-  }
-  
-  
+export const NavItem = ({ href, isActive, children }) => {
+  return (
+    <li>
+      <a
+        href={href}
+        className={`block px-4 py-2 rounded-md ${
+          isActive ? "bg-green-100 text-green-700" : ""
+        }`}
+      >
+        {children}
+      </a>
+    </li>
+  );
+};

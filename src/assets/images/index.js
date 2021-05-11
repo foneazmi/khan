@@ -1,1 +1,0 @@
-export const BG = require('./wallhaven-vm616l.jpeg')
