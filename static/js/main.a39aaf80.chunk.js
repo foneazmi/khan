@@ -1,2 +1,0 @@
-(this.webpackJsonpkhan=this.webpackJsonpkhan||[]).push([[0],{10:function(n,e,t){"use strict";t.r(e);var c=t(1),r=t.n(c),s=t(3),a=t.n(s),i=t(0),d=function(){return Object(i.jsx)("div",{className:"dashboard",children:Object(i.jsx)("h1",{children:"Farkhan Azmi...."})})};var h=function(){return Object(i.jsx)("div",{className:"content",children:Object(i.jsx)(d,{})})};t(9);a.a.render(Object(i.jsx)(r.a.StrictMode,{children:Object(i.jsx)(h,{})}),document.getElementById("root"))},9:function(n,e,t){}},[[10,1,2]]]);
-//# sourceMappingURL=main.a39aaf80.chunk.js.map
