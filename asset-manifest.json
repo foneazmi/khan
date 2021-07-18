@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/khan/static/css/main.d7619426.chunk.css",
-    "main.js": "/khan/static/js/main.19c83c4e.chunk.js",
-    "main.js.map": "/khan/static/js/main.19c83c4e.chunk.js.map",
+    "main.css": "/khan/static/css/main.aa1d310c.chunk.css",
+    "main.js": "/khan/static/js/main.8d4db1b1.chunk.js",
+    "main.js.map": "/khan/static/js/main.8d4db1b1.chunk.js.map",
     "runtime-main.js": "/khan/static/js/runtime-main.d01efa64.js",
     "runtime-main.js.map": "/khan/static/js/runtime-main.d01efa64.js.map",
     "static/js/2.ebcd85cc.chunk.js": "/khan/static/js/2.ebcd85cc.chunk.js",
     "static/js/2.ebcd85cc.chunk.js.map": "/khan/static/js/2.ebcd85cc.chunk.js.map",
     "index.html": "/khan/index.html",
-    "static/css/main.d7619426.chunk.css.map": "/khan/static/css/main.d7619426.chunk.css.map",
+    "static/css/main.aa1d310c.chunk.css.map": "/khan/static/css/main.aa1d310c.chunk.css.map",
     "static/js/2.ebcd85cc.chunk.js.LICENSE.txt": "/khan/static/js/2.ebcd85cc.chunk.js.LICENSE.txt",
     "static/media/index.css": "/khan/static/media/bg.e1ba1bc8.jpeg",
-    "static/media/photo.dabddc68.png": "/khan/static/media/photo.dabddc68.png"
+    "static/media/telegram-cloud-photo-size-5-6314594999324487139-x.50514003.bin": "/khan/static/media/telegram-cloud-photo-size-5-6314594999324487139-x.50514003.bin"
   },
   "entrypoints": [
     "static/js/runtime-main.d01efa64.js",
     "static/js/2.ebcd85cc.chunk.js",
-    "static/css/main.d7619426.chunk.css",
-    "static/js/main.19c83c4e.chunk.js"
+    "static/css/main.aa1d310c.chunk.css",
+    "static/js/main.8d4db1b1.chunk.js"
   ]
 }
