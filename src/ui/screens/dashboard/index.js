@@ -1,33 +1,23 @@
 import photo from "../../../assets/images/me.jpg";
 
 export const DashboardScreen = () => {
-  console.log("sdasd");
   return (
-    <section className="flex bg-khan h-screen w-screen bg-center">
-      <a
-        href="https://www.linkedin.com/in/farkhanazmi/"
-        className="flex mx-auto my-auto flex-col items-center md:flex-row"
-      >
+    <section className="flex bg-khan h-screen w-screen bg-center bg-cover">
+      <div className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-125 flex mx-auto my-auto flex-col items-center bg-gradient-to-r from-blue-500 to-green-400 hover:from-purple-500 hover:to-red-500  md:flex-row py-8 md:py-0 rounded-lg overflow-hidden">
         <img
           alt="Ordinary Guy"
           src={photo}
-          className="rounded-full w-36 h-36"
+          className=" rounded-full md:rounded-none w-36 h-36 md:w-56 md:h-56"
         />
-        <div className="md:ml-3 text-center md:text-left">
-          <p
-            className="flex text-5xl md:text-6xl font-semibold  text-gray-300 flex-row items-center"
-            data-aos="zoom-y-out"
-          >
-            Farkhan
-            <span className="bg-clip-text text-transparent font-black bg-gradient-to-r from-red-600 to-yellow-600 ml-2">
-              Azmi
-            </span>
+        <div className="text-center md:text-left mx-3">
+          <p className="flex text-4xl md:text-6xl font-black text-white flex-row items-center">
+            Farkhan Azmi
           </p>
-          <p className="text-xl md:text-2xl font-thin text-gray-100 ">
+          <p className="text-xl md:text-3xl font-thin text-white">
             Ordinary Khan
           </p>
         </div>
-      </a>
+      </div>
     </section>
   );
 };

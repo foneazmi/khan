@@ -1,5 +1,4 @@
 import { DashboardScreen } from "./ui/screens";
-import { Nav, NavItem } from "./ui/components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
